@@ -1,0 +1,7 @@
+__pycache__/
+venv/
+*.pyc
+data/social_media_privacy_assessments.csv
+.env
+reports/*.pdf
+reports/*.html
