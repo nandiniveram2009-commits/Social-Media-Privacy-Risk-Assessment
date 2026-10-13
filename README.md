@@ -234,8 +234,6 @@ Generates formal ISO/IEC 27701 compliant **Privacy Impact Assessment (PIA)** aud
 
 ---
 
-## Installation
-
 ### Prerequisites
 - Node.js 18+ & npm
 - Python 3.10+ & pip
@@ -263,20 +261,7 @@ npm install
 npm run dev
 ```
 
----
-
-## Usage
-1. Open your browser to `http://localhost:3000`.
-2. Navigate to **Privacy Assessment** and answer the 40 questions across Categories A through J (or select a preset demo persona).
-3. Click **Generate Risk Analysis & Dashboard** to view your score, SVG radar chart, and findings.
-4. Explore the **Hardening Simulator** to test how changing settings reduces your score.
-5. Use the **Photo EXIF Inspector** to upload an image, review embedded GPS tags, and download a sanitized copy.
-6. Generate and print your official **Audit PIA Report**.
-7. Run the **Verification Lab** to execute the 30 automated test cases.
-
----
-
-## API Documentation
+--
 
 ### `POST /api/assessment`
 Evaluates answers and returns risk score, findings, and recommendations.
@@ -345,15 +330,7 @@ Or execute them interactively inside the web application via the **Verification 
 
 ---
 
-## Screenshots
-- `screenshots/01_dashboard_radar.png` — Threat Radar and Executive Scorecards
-- `screenshots/02_assessment_survey.png` — 40-Question Defensive Questionnaire
-- `screenshots/03_hardening_simulator.png` — Before & After Improvement Simulator
-- `screenshots/04_exif_inspector.png` — Safe Photo Metadata Inspector & Cleaner
-- `screenshots/05_pia_report.png` — Official ISO/IEC 27701 Audit PIA Report
-- `screenshots/06_verification_lab.png` — 30 Automated Test Cases Runner
 
----
 
 ## Learning Outcomes
 - Practical application of the **NIST Privacy Framework** and **ISO/IEC 27701**.
